@@ -14,5 +14,10 @@ SC.initialize({
         e.preventDefault();
         sound.stop();
       });
+         
+      $('#pause').click(function(e) {
+        e.preventDefault();
+        sound.pause();
+      });
     });
 });  
